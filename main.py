@@ -28,11 +28,11 @@ logger.addHandler(file_handler)
 
 if __name__ == '__main__':  # Execute the following code only when executing main.py (not when importing it)
 
-    binance = BinanceClient("a9683138182ad5501218e781ea603b62efbbb7852c95fea7af581b4d849b12fa",
-                            "cd4cbde53452fb434741f78c200a96f65e7393f20561f4774f35764742519290",
+    binance = BinanceClient("******************************",
+                            "******************************",
                             testnet=True, futures=True)
 
-    bitmex = BitmexClient("3z61amz3picjdtcHKkkd0jA2", "J7Rds6KhkeD2__lugxB3iowX3kNKuE8WpOxEJWab9m4gjx7z", testnet=True)
+    bitmex = BitmexClient("*********************************", "*********************", testnet=True)
 
     root = Root(binance, bitmex)
     root.mainloop()
